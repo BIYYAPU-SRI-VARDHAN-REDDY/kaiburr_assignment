@@ -20,6 +20,7 @@ Be sure that you can show how your application responds to requests using postma
 any other HTTP client
 
 # steps to the solution
+
 To create this application, we will use the Spring Boot framework, which simplifies the development of REST APIs.
 
 Prerequisites:
