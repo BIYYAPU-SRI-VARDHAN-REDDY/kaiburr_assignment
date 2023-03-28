@@ -18,3 +18,26 @@ contains this string and return one or more servers found. Return 404 if nothing
 “Server” objects should be stored in MongoDB database.
 Be sure that you can show how your application responds to requests using postman, curl or
 any other HTTP client
+
+# steps to the solution
+To create this application, we will use the Spring Boot framework, which simplifies the development of REST APIs.
+
+Prerequisites:
+
+    Java 8 or higher installed
+    MongoDB installed and running
+
+Step 1: Create a Spring Boot project
+We will use the Spring Initializr to create a new Spring Boot project. Go to https://start.spring.io/ and select the following options:
+
+    Project: Maven Project
+    Language: Java
+    Spring Boot: 2.5.6
+    Group: com.example
+    Artifact: server-api
+    Dependencies: Spring Web, Spring Data MongoDB
+
+Click "Generate" and download the generated project.
+
+Step 2: Set up the MongoDB connection
+In the application.properties file, add the following configuration to set up the MongoDB connection:
