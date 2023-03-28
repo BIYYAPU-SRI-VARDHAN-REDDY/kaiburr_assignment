@@ -40,4 +40,19 @@ We will use the Spring Initializr to create a new Spring Boot project. Go to htt
 Click "Generate" and download the generated project.
 
 Step 2: Set up the MongoDB connection
-In the application.properties file, add the following configuration to set up the MongoDB connection:
+In the application.properties file, add the following configuration to set up the MongoDB connection:kotlin
+
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+spring.data.mongodb.database=server-db
+
+Note: here "server-db" is the database.
+
+Step 3: Create the Server model
+Create a new package "model" and create the Server model class in it.
+
+Step 4: Create the Server controller
+Create a new package "controller" and create the ServerController class in it
+
+Step 5: Create the Server repository
+Create a new package "repository" and create the ServerRepository interface in it
