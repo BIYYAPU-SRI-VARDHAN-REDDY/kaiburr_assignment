@@ -42,6 +42,8 @@ Click "Generate" and download the generated project.
 Step 2: Set up the MongoDB connection
 In the application.properties file, add the following configuration to set up the MongoDB connection:
 
+kotlin
+
 spring.data.mongodb.host=localhost
 spring.data.mongodb.port=27017
 spring.data.mongodb.database=server-db
