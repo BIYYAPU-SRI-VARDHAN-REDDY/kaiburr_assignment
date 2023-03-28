@@ -44,9 +44,9 @@ In the application.properties file, add the following configuration to set up th
 
 kotlin
 
-spring.data.mongodb.host=localhost
-spring.data.mongodb.port=27017
-spring.data.mongodb.database=server-db
+    spring.data.mongodb.host=localhost
+    spring.data.mongodb.port=27017
+    spring.data.mongodb.database=server-db
 
 Note: here "server-db" is the database.
 
